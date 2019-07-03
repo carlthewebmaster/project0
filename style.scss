@@ -7,11 +7,18 @@ $headertextcolor: white;
 
 body {
       background-color: $backcolor;
+      width: 75%;
       color: $textcolor;
       font-size: 18px;
       padding: 12px;
 }
 
+.videos {
+  background-color: gold;
+  color: black;
+  padding: 15px;
+  margin: 5px;}
+#carl-cat-image {border: 2; border-color: red; margin: 5px;}
 table {
       border-color: $bordercolor;
       border-collapse: collapse;
