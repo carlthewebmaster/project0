@@ -13,6 +13,10 @@ body {
       padding: 12px;
 }
 
+a:visited {color: goldenrod;}
+a {color: yellow;}
+a:hover {color: red;}
+
 .videos {
   background-color: gold;
   color: black;
@@ -30,8 +34,10 @@ th {
     color: $headertextcolor;
 }
 
-tr:nth-child(even) {background-color: #aaa;}
+.bigtable tr:nth-child(even) {background-color: #aaa;}
+
 tr:hover {background-color: #bbb;}
+
 td {
     color: DarkSlateGray;
     padding: 10px;
