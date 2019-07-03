@@ -1,0 +1,31 @@
+/* Styles for Project 0 */
+$backcolor: SeaGreen;
+$textcolor: Khaki;
+$bordercolor: darkgreen;
+$headercolor: DarkOrange;
+$headertextcolor: white;
+
+body {
+      background-color: $backcolor;
+      color: $textcolor;
+      font-size: 18px;
+      padding: 12px;
+}
+
+table {
+      border-color: $bordercolor;
+      border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    background-color: $headercolor;
+    color: $headertextcolor;
+}
+
+tr:nth-child(even) {background-color: #aaa;}
+tr:hover {background-color: #bbb;}
+td {
+    color: DarkSlateGray;
+    padding: 10px;
+}
