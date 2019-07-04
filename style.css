@@ -25,24 +25,28 @@ div ul {
 }
 
 /* CSS Selector 4 and 5 - class and pseudo element */
-.navbar a {
+.nav-item a {
   color: yellow;
 }
-.navbar a:visited {
+.nav-item a:visited {
   color: khaki;
 }
-.navbar a:hover {
+.nav-item a:hover {
   color: red;
 }
 
-/* CSS Selector 5 - direct descendant */
+a.navbar-brand {
+  color: yellow;
+}
+
+/* CSS Selector 6 - direct descendant */
 blockquote > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-/* CSS Selecgtor 6 - attibute */
+/* CSS Selector 7 - attibute */
 a[target=_blank]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
   margin: 0 3px 0 5px;

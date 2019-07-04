@@ -8,16 +8,15 @@ Author: Carl Leubsdorf, Jr.
 
 This website contains information about Carl's music interests.
 
+
+Project Requirements:
+> Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
+
 There are four pages on the site:
 * `index.html` - Home page with information on some musical genres that Carl likes.
 * `instruments.html` - Information on some of Carl's musical instruments.
 * `gear.html` - A listing of some of Carl's amplifiers and other gadgets.
 * `videos.html` - A few video and audio clips.
-
-Project Requirements:
-> Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
-
-Status: Completed (see list above)
 
 > Your website must include at least one list (ordered or unordered), at least one table, and at least one image.
 
@@ -66,7 +65,7 @@ div ul {
 4. class
 5. pseudo element (`visited`)
 ```
-.navbar {
+.nav-item {
   a {color: $sitelink;}
   a:visited {color: $sitelinkvisited;}
   a:hover {color: $sitelinkhover;}
@@ -79,6 +78,15 @@ blockquote > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+```
+
+
+7. attribute 
+```
+a[target="_blank"]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
 }
 ```
 
@@ -125,8 +133,8 @@ On smaller screens, the headings disappear, so I use the following `@media` quer
   music.  I've definitely seen GD/D&amp;C  more in concert than any other band.
 </div>
 <div class="col-sm tablebox-data">
-  <blockquote><ul><li><a href="https://www.youtube.com/watch?v=-nztDwb8RZc">Eyes of the World</a></li>
-    <li><a href="https://www.youtube.com/watch?v=_h8bRDoc04g">Goin' Down the Road Feeling Bad</a></li></ul></blockquote>
+  <blockquote><ul><li><a target=_blank href="https://www.youtube.com/watch?v=-nztDwb8RZc">Eyes of the World</a></li>
+    <li><a target=_blank href="https://www.youtube.com/watch?v=_h8bRDoc04g">Goin' Down the Road Feeling Bad</a></li></ul></blockquote>
 </div>
 </div>
 ```
@@ -143,7 +151,7 @@ $sitelinkhover: red;
 
 * Nesting example for navbar links (also showing use of variables):
 ```
-.navbar {
+.nav-item {
   a {color: $sitelink;}
   a:visited {color: $sitelinkvisited;}
   a:hover {color: $sitelinkhover;}
