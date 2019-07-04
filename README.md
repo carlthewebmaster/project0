@@ -82,7 +82,7 @@ blockquote > ul {
 ```
 
 
-7. attribute 
+7. attribute
 ```
 a[target="_blank"]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
@@ -120,9 +120,11 @@ On smaller screens, the headings disappear, so I use the following `@media` quer
 
 * The `navbar` and `nav` components are used to create the top menu.
 `<nav class="navbar bg-dark fixed-top">`
-``<ul class="nav justify-content-end">``
+``<ul class="nav justify-content-end">`
 
-* `row` and `column` are used to lay out a table on the home page, including a 1/2 page width for the center column:
+* `button` components are used on the `gear.html` page for external links.
+
+* `row` and `column` are used to lay out a grid on the home page, reserving half of the page width (6 columns) for the center column:
 ```
 <div class="col-sm tablebox-data tablebox-data-genre">
   <span class="tablebox-data-genre">Grateful Dead</span>
