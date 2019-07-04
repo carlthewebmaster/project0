@@ -1,0 +1,84 @@
+/* Styles for Project 0 */
+/* CS 50 W - Carl Leubsdorf, Jr. */
+/* variables */
+/* CSS Selector 1 - element */
+body {
+  font-size: 18px;
+  padding-top: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* CSS Selector 2 - child element (space) */
+div ul {
+  list-style-type: square;
+}
+
+/* Css selector 3 - ID */
+#image-carl {
+  float: right;
+  padding: 16px;
+}
+
+#main-div {
+  margin-top: 10px;
+}
+
+/* CSS Selector 4 and 5 - class and pseudo element */
+.nav-item a {
+  color: yellow;
+}
+.nav-item a:visited {
+  color: khaki;
+}
+.nav-item a:hover {
+  color: red;
+}
+
+a.navbar-brand {
+  color: yellow;
+}
+
+/* CSS Selector 6 - direct descendant */
+blockquote > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Selector 7 - attibute */
+a[target=_blank]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
+
+/* Homepage Row and Column Styling */
+.tablebox-data, .tablebox-header {
+  border-top: 1px solid #dee2e6;
+  padding: 12px;
+}
+
+.tablebox-header {
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+.tablebox-data {
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+
+@media (min-width: 500px) {
+  .tablebox-data-genre {
+    font-weight: normal;
+  }
+}
+@media (max-width: 499px) {
+  .tablebox-data-genre {
+    font-weight: bold;
+    color: seagreen;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
