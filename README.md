@@ -30,11 +30,11 @@ There are four pages on the site:
 > Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
 
 Properties used:
-# `font-size`, `font-weight`
-# `padding-top`, `padding-left`, `padding-right`
-# `list-style-type`
-# `float`
-# `border-top`, `border-bottom`
+1. `font-size`, `font-weight`
+2. `padding-top`, `padding-left`, `padding-right`
+3. `list-style-type`
+4. `float`
+5. `border-top`, `border-bottom`
 
 Selectors used:
 
