@@ -3,32 +3,103 @@
     <head>
         <title>Carl's Music</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
     </head>
     <body>
-        <h1>Carl's Music</h1>
-        <h2>Welcome</h2>
-        <p><img id="carl-cat-image" src="carl-the-cat.jpg"</p>
-        <p>Check out the following pages:</p>
-        <ul>
-            <li><a href="videos.html">Video and Audio</a></li>
-            <li><a href="studio.html">Music Studio</a></li>
-            <li><a href="songs.html">Songs</a></li>
+      <div class="row">
+      <div class="col">
+      <nav class="navbar bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Carl's Music Site &nbsp;&nbsp;<i class="fas fa-music"></i></a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
+            <li class="nav-item"><a class="nav-link" href="instruments.html">Instruments</a></li>
         </ul>
-<div class="videos">
-        <h2>Music Video Sampler</h2>
-        <table class="smalltable" border=1>
-            <tr>
-                <th>Venue</th>
-                <th>Description</th>
-                <th>Video</th>
-            </tr>
-            <tr>
-                <td>Udolna</td>
-                <td>Carl sings a song.</td>
-                <td>[video embed]</td>
-            </tr>
-        </table>
+
+      </nav>
+    </div>
+      </div>
+      <div class="row">
+      <div id="main-div" class="col">
+        <h2>Welcome!</h2>
+        <p><img id="image-carl" src="carl-the-cat.jpg"></p>
+        <p>This site describes some of my musical interests, from
+          genres to instruments to various music-related gadgets.  There
+          are even a few audio and video clips!
+        </p>
+        <p>
+          Use the nav bar at the top to visit other parts of the
+          site.
+        <ul>
+            <li><a href="videos.html">A selection of video and audio clips</a></li>
+            <li><a href="gear.html">Information on some of my amplifiers
+              and other musical gadgets.</a></li>
+            <li><a href="instruments.html">Listing of too many instruments.</a></li>
+        </ul>
+      </p>
+
+        <h2>Genres</h2>
+        <p>Here are some of the music genres that Carl likes.</p>
+
+        <div class="container">
+          <div class="row d-none d-md-flex">
+            <div class="col-sm tablebox-header">
+              Genre
+            </div>
+            <div class="col-sm-6 tablebox-header">
+              Description
+            </div>
+            <div class="col-sm tablebox-header">
+              Song Clip(s)
+            </div>
+          </div>
+          <div class="row d-sm-block d-md-flex">
+            <div class="col-sm tablebox-data tablebox-data-genre">
+              <span class="tablebox-data-genre">Grateful Dead</span>
+            </div>
+            <div class="col-sm-6 tablebox-data">
+              I've always liked improvisational music, rock, and blues, and
+              and to me the Dead combine those in a really engaging way. I don't
+              usually say I'm a "Deadhead" because I sort of resist labels like that,
+              but I do seem to listen to an awful lot of Grateful Dead and Dead and Company
+              music.  I've definitely seen GD/D&amp;C  more in concert than any other band.
+            </div>
+            <div class="col-sm tablebox-data">
+              <blockquote><ul><li><a target="_blank" href="https://www.youtube.com/watch?v=-nztDwb8RZc">Eyes of the World</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=_h8bRDoc04g">Goin' Down the Road Feeling Bad</a></li></ul></blockquote>
+            </div>
+          </div>
+          <div class="row d-sm-block d-md-flex">
+            <div class="col-sm tablebox-data">
+              <span class="tablebox-data-genre">Blues</span>
+            </div>
+            <div class="col-sm-6 tablebox-data">
+              In my experience, most Deadheads (there's that word agin!) like the Blues.
+              I can't play them well, but I do enjoy listening.
+            </div>
+            <div class="col-sm tablebox-data">
+              <blockquote><ul><li><a target="_blank" href="https://www.youtube.com/watch?v=5jcGY7NbaQw">Dust My Broom</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=m54KGKy8fKo">Key to the Highway</a></li></ul><blockquote>
+            </div>
+          </div>
+          <div class="row d-sm-block d-md-flex">
+            <div class="col-sm tablebox-data">
+              <span class="tablebox-data-genre">1970s Rock and Roll</span>
+            </div>
+            <div class="col-sm-6 tablebox-data">
+              Some say I'm stuck in the past, and that may be true. But I have found that a lot of people
+              I meet who play music, young and old, prefer to play songs from the 1960s and 1970s.
+            </div>
+            <div class="col-sm tablebox-data">
+              <blockquote><ul><li><a target="_blank" href="https://www.youtube.com/watch?v=LTe0aTxARj0">Stay With Me</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=A3x2iesKDbA">Rock and Roll, Hootchie Koo</a></li></ul></blockquote>
+            </div>
+          </div>
+        </div>
+
+      </div>
       </div>
     </body>
 </html>
